@@ -1,0 +1,21 @@
+//
+//  CD_PrefixHeader.pch
+//  CDCountdownTimerLabel
+//
+//  Created by cqz on 2019/3/7.
+//  Copyright © 2019 ChangDao. All rights reserved.
+//
+
+#ifndef CD_PrefixHeader_pch
+#define CD_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "CDMacroDefine.h"
+
+#import <Masonry.h>
+
+
+
+#endif /* CD_PrefixHeader_pch */
