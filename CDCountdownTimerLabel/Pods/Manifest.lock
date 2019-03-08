@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.1.0)
+  - MZTimerLabel (0.5.4)
+
+DEPENDENCIES:
+  - Masonry (~> 1.1.0)
+  - MZTimerLabel (~> 0.5.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - MZTimerLabel
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MZTimerLabel: cd9bfb9304540ef2a9e163384fca9c978f0dbf83
+
+PODFILE CHECKSUM: 76ce83467da706a8923a655a4111d101f34aa85b
+
+COCOAPODS: 1.7.0.beta.1

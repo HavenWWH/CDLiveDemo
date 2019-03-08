@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10750F012230F1C300FF2A28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10750F002230F1C300FF2A28 /* AppDelegate.m */; };
+		10750F042230F1C300FF2A28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10750F032230F1C300FF2A28 /* ViewController.m */; };
+		10750F092230F1C400FF2A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10750F082230F1C400FF2A28 /* Assets.xcassets */; };
+		10750F0F2230F1C400FF2A28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10750F0E2230F1C400FF2A28 /* main.m */; };
+		10750F1E2230F3AD00FF2A28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10750F1D2230F3AD00FF2A28 /* LaunchScreen.xib */; };
+		219DE5EDB0413B7698B0F2FA /* Pods_CDCountdownTimerLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D0C926844F08ABB45A4837 /* Pods_CDCountdownTimerLabel.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10750EFC2230F1C300FF2A28 /* CDCountdownTimerLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDCountdownTimerLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10750EFF2230F1C300FF2A28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10750F002230F1C300FF2A28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10750F022230F1C300FF2A28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10750F032230F1C300FF2A28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10750F082230F1C400FF2A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10750F0D2230F1C400FF2A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10750F0E2230F1C400FF2A28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10750F1D2230F3AD00FF2A28 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		10750F232230F91700FF2A28 /* CDMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMacroDefine.h; sourceTree = "<group>"; };
+		10750F242230F91700FF2A28 /* CD_PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CD_PrefixHeader.pch; sourceTree = "<group>"; };
+		39D0C926844F08ABB45A4837 /* Pods_CDCountdownTimerLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDCountdownTimerLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60DE869AE3707C583889E14C /* Pods-CDCountdownTimerLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDCountdownTimerLabel.release.xcconfig"; path = "Target Support Files/Pods-CDCountdownTimerLabel/Pods-CDCountdownTimerLabel.release.xcconfig"; sourceTree = "<group>"; };
+		9C18F6D2F9DF918EA0D036F7 /* Pods-CDCountdownTimerLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDCountdownTimerLabel.debug.xcconfig"; path = "Target Support Files/Pods-CDCountdownTimerLabel/Pods-CDCountdownTimerLabel.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10750EF92230F1C300FF2A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219DE5EDB0413B7698B0F2FA /* Pods_CDCountdownTimerLabel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10750EF32230F1C300FF2A28 = {
+			isa = PBXGroup;
+			children = (
+				10750EFE2230F1C300FF2A28 /* CDCountdownTimerLabel */,
+				10750EFD2230F1C300FF2A28 /* Products */,
+				427FB46A929776C959A3ED55 /* Pods */,
+				C0ED74A2DB8D4DA1F04E5C88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10750EFD2230F1C300FF2A28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10750EFC2230F1C300FF2A28 /* CDCountdownTimerLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10750EFE2230F1C300FF2A28 /* CDCountdownTimerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				10750EFF2230F1C300FF2A28 /* AppDelegate.h */,
+				10750F002230F1C300FF2A28 /* AppDelegate.m */,
+				10750F022230F1C300FF2A28 /* ViewController.h */,
+				10750F032230F1C300FF2A28 /* ViewController.m */,
+				10750F222230F91700FF2A28 /* Manager */,
+				10750F162230F21D00FF2A28 /* Supporting Files */,
+			);
+			path = CDCountdownTimerLabel;
+			sourceTree = "<group>";
+		};
+		10750F162230F21D00FF2A28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10750F0D2230F1C400FF2A28 /* Info.plist */,
+				10750F1D2230F3AD00FF2A28 /* LaunchScreen.xib */,
+				10750F0E2230F1C400FF2A28 /* main.m */,
+				10750F082230F1C400FF2A28 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10750F222230F91700FF2A28 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				10750F232230F91700FF2A28 /* CDMacroDefine.h */,
+				10750F242230F91700FF2A28 /* CD_PrefixHeader.pch */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		427FB46A929776C959A3ED55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C18F6D2F9DF918EA0D036F7 /* Pods-CDCountdownTimerLabel.debug.xcconfig */,
+				60DE869AE3707C583889E14C /* Pods-CDCountdownTimerLabel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0ED74A2DB8D4DA1F04E5C88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39D0C926844F08ABB45A4837 /* Pods_CDCountdownTimerLabel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10750EFB2230F1C300FF2A28 /* CDCountdownTimerLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10750F122230F1C400FF2A28 /* Build configuration list for PBXNativeTarget "CDCountdownTimerLabel" */;
+			buildPhases = (
+				F1EC5C7FF220103361FBF601 /* [CP] Check Pods Manifest.lock */,
+				10750EF82230F1C300FF2A28 /* Sources */,
+				10750EF92230F1C300FF2A28 /* Frameworks */,
+				10750EFA2230F1C300FF2A28 /* Resources */,
+				87C4A25FE78A92CEC5252082 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDCountdownTimerLabel;
+			productName = CDCountdownTimerLabel;
+			productReference = 10750EFC2230F1C300FF2A28 /* CDCountdownTimerLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10750EF42230F1C300FF2A28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ChangDao;
+				TargetAttributes = {
+					10750EFB2230F1C300FF2A28 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 10750EF72230F1C300FF2A28 /* Build configuration list for PBXProject "CDCountdownTimerLabel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10750EF32230F1C300FF2A28;
+			productRefGroup = 10750EFD2230F1C300FF2A28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10750EFB2230F1C300FF2A28 /* CDCountdownTimerLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10750EFA2230F1C300FF2A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10750F1E2230F3AD00FF2A28 /* LaunchScreen.xib in Resources */,
+				10750F092230F1C400FF2A28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87C4A25FE78A92CEC5252082 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CDCountdownTimerLabel/Pods-CDCountdownTimerLabel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CDCountdownTimerLabel/Pods-CDCountdownTimerLabel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CDCountdownTimerLabel/Pods-CDCountdownTimerLabel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1EC5C7FF220103361FBF601 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CDCountdownTimerLabel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10750EF82230F1C300FF2A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10750F042230F1C300FF2A28 /* ViewController.m in Sources */,
+				10750F0F2230F1C400FF2A28 /* main.m in Sources */,
+				10750F012230F1C300FF2A28 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10750F102230F1C400FF2A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10750F112230F1C400FF2A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10750F132230F1C400FF2A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C18F6D2F9DF918EA0D036F7 /* Pods-CDCountdownTimerLabel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = BG4PXE43BN;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CDCountdownTimerLabel/Manager/CD_PrefixHeader.pch";
+				INFOPLIST_FILE = CDCountdownTimerLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChangDaoTest.CDCountdownTimerLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GeneralProfile;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10750F142230F1C400FF2A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60DE869AE3707C583889E14C /* Pods-CDCountdownTimerLabel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = BG4PXE43BN;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CDCountdownTimerLabel/Manager/CD_PrefixHeader.pch";
+				INFOPLIST_FILE = CDCountdownTimerLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChangDaoTest.CDCountdownTimerLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GeneralProfile;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10750EF72230F1C300FF2A28 /* Build configuration list for PBXProject "CDCountdownTimerLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10750F102230F1C400FF2A28 /* Debug */,
+				10750F112230F1C400FF2A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10750F122230F1C400FF2A28 /* Build configuration list for PBXNativeTarget "CDCountdownTimerLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10750F132230F1C400FF2A28 /* Debug */,
+				10750F142230F1C400FF2A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10750EF42230F1C300FF2A28 /* Project object */;
+}
