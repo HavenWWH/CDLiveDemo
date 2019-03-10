@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		009ACE3A929EF3F9EB021D53 /* Pods_CoursewareDownload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEB93960D05D26496E54B9A /* Pods_CoursewareDownload.framework */; };
+		101695C52234DC7500A05864 /* XIMANJW.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 101695C42234DC7500A05864 /* XIMANJW.ttf */; };
 		10750F362232036600FF2A28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10750F352232036600FF2A28 /* AppDelegate.m */; };
 		10750F392232036600FF2A28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10750F382232036600FF2A28 /* ViewController.m */; };
 		10750F3E2232036700FF2A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10750F3D2232036700FF2A28 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		101695C42234DC7500A05864 /* XIMANJW.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = XIMANJW.ttf; sourceTree = "<group>"; };
 		10750F312232036600FF2A28 /* CoursewareDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoursewareDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10750F342232036600FF2A28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10750F352232036600FF2A28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				10750F352232036600FF2A28 /* AppDelegate.m */,
 				10750F372232036600FF2A28 /* ViewController.h */,
 				10750F382232036600FF2A28 /* ViewController.m */,
+				101695C42234DC7500A05864 /* XIMANJW.ttf */,
 				10750F4C223203F200FF2A28 /* Supporting Files */,
 			);
 			path = CoursewareDownload;
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10750F4B223203D500FF2A28 /* LaunchScreen.xib in Resources */,
+				101695C52234DC7500A05864 /* XIMANJW.ttf in Resources */,
 				10750F3E2232036700FF2A28 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
