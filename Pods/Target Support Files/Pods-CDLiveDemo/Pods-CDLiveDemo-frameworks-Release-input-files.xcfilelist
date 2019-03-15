@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-CDLiveDemo/Pods-CDLiveDemo-frameworks.sh
+${PODS_ROOT}/AlivcLivePusherWithPlayer/AlivcLivePusher.framework
+${PODS_ROOT}/AlivcLivePusherWithPlayer/AlivcLibRtmp.framework
+${PODS_ROOT}/AlivcLivePusherWithPlayer/AliyunPlayerSDK.framework
+${PODS_ROOT}/AlivcLivePusherWithPlayer/AlivcLibBeauty.framework
+${PODS_ROOT}/AlivcLivePusherWithPlayer/AlivcLibFace.framework
+${PODS_ROOT}/AlivcLivePusherWithPlayer/AliThirdparty.framework

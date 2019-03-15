@@ -1,0 +1,18 @@
+PODS:
+  - AlivcLivePusherWithPlayer (3.4.0):
+    - AlivcLivePusherWithPlayer/AlivcLivePusherWithPlayer (= 3.4.0)
+  - AlivcLivePusherWithPlayer/AlivcLivePusherWithPlayer (3.4.0)
+
+DEPENDENCIES:
+  - AlivcLivePusherWithPlayer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AlivcLivePusherWithPlayer
+
+SPEC CHECKSUMS:
+  AlivcLivePusherWithPlayer: 1f11c3d63e54df7cbe429d8f767902fac2c8ea70
+
+PODFILE CHECKSUM: f604ed2f0cddfbaa816dc03e534f6bc72567328d
+
+COCOAPODS: 1.7.0.beta.1
